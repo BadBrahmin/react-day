@@ -8,9 +8,12 @@
 }
 
 span {
-  font-weight: 500;
+  font-weight: bold;
 }
 
+.header {
+  font-weight: light;
+}
 .container {
   width: 40%;
   height: 25%;
