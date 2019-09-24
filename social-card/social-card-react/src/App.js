@@ -27,7 +27,7 @@ class App extends React.Component {
 
         <div className="flex between">
           <Sidebar activeBtn={this.state.active} />
-          <Aside />
+          <Aside activeBtn={this.state.active} />
         </div>
 
         <Footer />
