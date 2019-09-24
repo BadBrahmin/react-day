@@ -4,11 +4,11 @@ function Footer() {
   return (
     <div className="flex between">
       <div className="icons flex between">
-        <i class="icon fas fa-basketball-ball" />
-        <i class="icon fab fa-behance" />
-        <i class="icon fab fa-linkedin-in" />
-        <i class="icon fab fa-instagram" />
-        <i class="icon fab fa-vimeo-v" />
+        <i class="icon fa fa-basketball-ball" />
+        <i class="icon fa fa-behance" />
+        <i class="icon fa fa-linkedin" />
+        <i class="icon fa fa-instagram" />
+        <i class="icon fa fa-vimeo-v" />
       </div>
 
       <div>

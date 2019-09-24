@@ -5,23 +5,35 @@ import Sidebar from "./Sidebar";
 import Aside from "./Aside";
 import Footer from "./Footer";
 
-function App() {
-  return (
-    <div className="container">
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      active: "en"
+    };
+  }
 
-      <Header />
+  changeActive = value => {
+    this.setState({ active: value });
+  };
 
-      <div className="flex between">
+  render() {
+    return (
+      <div className="container">
+        <Header
+          activeBtn={this.state.active}
+          changeActive={this.changeActive}
+        />
 
-        <Sidebar />
-        <Aside />
-      
+        <div className="flex between">
+          <Sidebar activeBtn={this.state.active} />
+          <Aside />
+        </div>
+
+        <Footer />
       </div>
-
-      <Footer />
-      
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
