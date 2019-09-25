@@ -5,7 +5,7 @@ function Footer() {
     <div className="flex between">
       <div className="icons flex between">
         <i class="icon fa fa-basketball-ball" />
-        <i class="icon fa fa-behance" />
+        <i class="icon fas fa-behance" />
         <i class="icon fa fa-linkedin" />
         <i class="icon fa fa-instagram" />
         <i class="icon fa fa-vimeo-v" />

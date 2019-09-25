@@ -37,6 +37,11 @@ span {
   border: 1px solid black;
 }
 
+.active {
+  background: grey;
+  color: white;
+}
+
 .flex {
   display: flex;
 }
